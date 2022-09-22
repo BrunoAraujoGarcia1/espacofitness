@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(38, 45, 51);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(0, 92, 167);
+}
+
+.container {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+  }
+  
+  #texto1 {
+    position: absolute;
+    font-size: 32px;
+    left: 490px;
+    top: 210px;
+  }
+
+  h2  {color: rgb(0, 167, 56); text-shadow: rgb(41, 41, 41) 0.1em 0.1em 0.2em
+  }
+
+  h4  {color: rgb(223, 223, 223); text-shadow: rgb(41, 41, 41) 0.1em 0.1em 0.2em
+  }
+
+  
+  
+  
+  /* Design do Botão */
+  body{
+    margin: 0;
+    padding: 0;
+    background: #2d3436;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #009b00;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: rgba(18, 151, 0, 0.363);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
+  
+
+  /* Editar hr */
+
+  hr {
+            position: relative;
+            top: 580px;
+            border: none;
+            height: 15px;
+            background: rgb(194, 194, 194);
+            margin-bottom: 50px;
+        }
+
+
+
+    /* Texto 2 */
+
+    #texto2 {
+      position: absolute;
+      font-size: 28px;
+      left: 465px;
+      top: 370px;
+    }
+
+      h5  {color: rgba(255, 255, 255, 0.753); text-shadow: rgb(41, 41, 41) 0.1em 0.1em 0.2em
+      }
+
+      #images {
+        position: absolute; 
+        left: -350px; /* posiciona a 90px para a esquerda */ 
+        top: 200px; /* posiciona a 70px para baixo */
+        }
+
+        #texto5 {
+          position: absolute;
+          font-size: 20px;
+          left: 215px;
+          top: 1250px;
+        }
+
+/* Texto dentro do site map */
+
+#texto8 {
+  position: absolute;
+  font-size: 15px;
+  left:410px;
+  top: -595px;
+  color:rgb(255, 255, 255)
+   }
+
+   #texto9 {
+    position: absolute;
+    font-size: 15px;
+    left:125px;
+    top: -595px;
+    color:rgb(255, 255, 255)
+     }
+
+     #texto10 {
+      position: absolute;
+      font-size: 15px;
+      left:680px;
+      top: -595px;
+      color:rgb(255, 255, 255)
+       }
+
+       #texto11 {
+        position: absolute;
+        font-size: 15px;
+        left:405px;
+        top: -500px;
+        color:rgb(255, 255, 255)
+         }
+
+         #texto12 {
+          position: absolute;
+          font-size: 15px;
+          left:400px;
+          top: -405px;
+          color:rgb(255, 255, 255)
+           }
+
+           #texto13 {
+            position: absolute;
+            font-size: 15px;
+            left:120px;
+            top: -345px;
+            color:rgb(255, 255, 255)
+             }
+
+             #texto14 {
+              position: absolute;
+              font-size: 15px;
+              left:685px;
+              top: -345px;
+              color:rgb(255, 255, 255)
+               }
+
+/* Rodapé */
+
+/* HR Rodapé  */
+
+#linha20 {
+  position: relative;
+  top: 1000px;
+  border: none;
+  height: 300px;
+  background: rgb(43, 43, 43);
+  margin-bottom: 50px;
+}
+
+#texto21 {
+  position: absolute;
+  font-size: 20px;
+  left: 530px;
+  top: 1085px;
+  color:rgb(233, 233, 233)
+   }
+  
+   #imagem21 {
+    position: absolute; 
+    left: 600px; /* posiciona a 90px para a esquerda */ 
+    top: 1200px; /* posiciona a 70px para baixo */
+    }
+
+    #imagem22 {
+      position: absolute; 
+      left: 700px; /* posiciona a 90px para a esquerda */ 
+      top: 1200px; /* posiciona a 70px para baixo */
+      }
+
+      #texto22 {
+        position: absolute;
+        font-size: 15px;
+        left: 400px;
+        top: 1335px;
+        color:rgb(124, 124, 124)
+         }
+
+/* Menu do Rodapé */
+
+#texto23 {
+  position: absolute;
+  font-size: 15px;
+  left: 490px;
+  top: 1285px;
+  color:rgb(255, 255, 255)
+   }
+
+   #texto24 {
+    position: absolute;
+    font-size: 15px;
+    left: 590px;
+    top: 1285px;
+    color:rgb(255, 255, 255)
+     }
+
+     #texto25 {
+      position: absolute;
+      font-size: 15px;
+      left: 690px;
+      top: 1285px;
+      color:rgb(255, 255, 255)
+       }
+
+       #texto26 {
+        position: absolute;
+        font-size: 15px;
+        left: 830px;
+        top: 1285px;
+        color:rgb(255, 255, 255)
+         }

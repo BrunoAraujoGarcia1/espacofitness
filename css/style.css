@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(38, 45, 51);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(0, 92, 167);
+}
+
+.container {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 32px;
+    left: 250px;
+    top: 135px;
+  }
+
+  h3 {
+    color: rgb(223, 223, 223)
+
+  }
+  
+  /* Design do Botão */
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: #2d3436;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #0097ee;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: rgb(0, 131, 207);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
+
+  /* Editar hr */
+
+  hr {
+            position: relative;
+            top: 500px;
+            border: none;
+            height: 12px;
+            background: rgb(0, 143, 199);
+            margin-bottom: 50px;
+        }
+  
+
+/* Texto abaixo da imagem */
+
+.container {
+    position: relative;
+        }
+          
+    #image {
+    position: absolute;
+     }
+          
+    #texto1 {
+    position: absolute;
+    font-size: 32px;
+    left: 430px;
+    top: 500px;
+    color:rgb(223, 223, 223)
+     }
+
+/* Texto 2 */
+
+.container {
+    position: relative;
+        }
+          
+    #texto2 {
+    position: absolute;
+    font-size: 25px;
+    left: 300px;
+    top: 600px;
+    color:rgb(223, 223, 223)
+     }
+          
+     #img {
+        position: absolute; 
+        left: -180px; /* posiciona a 90px para a esquerda */ 
+        top: 1000px; /* posiciona a 70px para baixo */
+        }
+
+        #linha2 {
+            position: relative;
+            top: 1000px;
+            border: none;
+            height: 12px;
+            background: rgb(0, 143, 199);
+            margin-bottom: 50px;
+        }
+
+        .container {
+            position: relative;
+                }
+                  
+            #texto3 {
+            position: absolute;
+            font-size: 25px;
+            left: 500px;
+            top: 750px;
+            color:rgb(223, 223, 223)
+             }
+
+             .container {
+                position: relative;
+                    }
+                      
+                #texto4 {
+                position: absolute;
+                font-size: 25px;
+                left: 500px;
+                top: 1050px;
+                color:rgb(0, 143, 199)
+                 }
+
+                 .container {
+                  position: relative;
+                      }
+                        
+                  #texto5 {
+                  position: absolute;
+                  font-size: 25px;
+                  left: 360px;
+                  top: 1120px;
+                  color:rgb(0, 143, 199)
+                   }
+
+    /* imagem de Planos e Beneficios */
+
+    #a1 {
+        position: absolute; 
+        left: 180px; /* posiciona a 90px para a esquerda */ 
+        top: 1200px; /* posiciona a 70px para baixo */
+        }
+    
+        #a2 {
+            position: absolute; 
+            left: 550px; /* posiciona a 90px para a esquerda */ 
+            top: 1200px; /* posiciona a 70px para baixo */
+            }
+            
+            #a3 {
+                position: absolute; 
+                left: 919px; /* posiciona a 90px para a esquerda */ 
+                top: 1200px; /* posiciona a 70px para baixo */
+                }
+  
+/* Texto dentro dos Planos, Semanal, Mensal e Anual */
+
+#texto6 {
+  position: absolute;
+  font-size: 15px;
+  left: 255px;
+  top: 1332px;
+  color:rgb(0, 143, 199)
+   }
+
+   #texto7 {
+    position: absolute;
+    font-size: 15px;
+    left: 255px;
+    top: 1360px;
+    color:rgb(0, 143, 199)
+     }
+
+     #texto8 {
+      position: absolute;
+      font-size: 15px;
+      left: 255px;
+      top: 1390px;
+      color:rgb(0, 143, 199)
+       }
+
+       #texto9 {
+        position: absolute;
+        font-size: 15px;
+        left: 625px;
+        top: 1332px;
+        color:rgb(0, 143, 199)
+         }
+
+         #texto10 {
+          position: absolute;
+          font-size: 15px;
+          left: 625px;
+          top: 1360px;
+          color:rgb(0, 143, 199)
+           }
+
+           #texto11 {
+            position: absolute;
+            font-size: 15px;
+            left: 625px;
+            top: 1390px;
+            color:rgb(0, 143, 199)
+             }
+
+             #texto12 {
+              position: absolute;
+              font-size: 15px;
+              left: 625px;
+              top: 1420px;
+              color:rgb(0, 143, 199)
+               }
+
+               #texto13 {
+                position: absolute;
+                font-size: 15px;
+                left: 1000px;
+                top: 1332px;
+                color:rgb(0, 143, 199)
+                 }
+
+                 #texto14 {
+                  position: absolute;
+                  font-size: 15px;
+                  left: 1000px;
+                  top: 1360px;
+                  color:rgb(0, 143, 199)
+                   }
+
+                   #texto15 {
+                    position: absolute;
+                    font-size: 15px;
+                    left: 1000px;
+                    top: 1390px;
+                    color:rgb(0, 143, 199)
+                     }
+
+                     #texto16 {
+                      position: absolute;
+                      font-size: 15px;
+                      left: 1000px;
+                      top: 1420px;
+                      color:rgb(0, 143, 199)
+                       }
+
+                       #texto17 {
+                        position: absolute;
+                        font-size: 15px;
+                        left: 1000px;
+                        top: 1450px;
+                        color:rgb(0, 143, 199)
+                         }      
+                         
+/* HR */
+
+#linha3 {
+  position: relative;
+  top: 1785px;
+  border: none;
+  height: 12px;
+  background: rgb(0, 143, 199);
+  margin-bottom: 50px;
+}
+
+/* Design do Segundo Botão */ 
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #2d3436;
+}
+.middle2{
+  position: absolute;
+  top: 14250%;
+  left: 53%;
+  transform: translate(-50%,-50%);
+}
+.btn2{
+  position: relative;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #008cff;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn2::before{
+  background: rgba(0, 204, 255, 0.068);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn2::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn2:hover::before{
+  width: 100%;
+}
+
+/* WhatsApp */
+
+#wpp {
+  position: absolute; 
+  left: -150px; /* posiciona a 90px para a esquerda */ 
+  top: 1790px; /* posiciona a 70px para baixo */
+  }
+
+/* HR Wpp */
+
+#linha7 {
+  position: relative;
+  top: 1735px;
+  border: none;
+  height: 250px;
+  background: rgb(187, 187, 187);
+  margin-bottom: 50px;
+}
+
+#img13 {
+  position: absolute; 
+  left: 645px; /* posiciona a 90px para a esquerda */ 
+  top: 1800px; /* posiciona a 70px para baixo */
+  }
+
+  #wpptexto {
+    position: absolute; 
+    left: 655px; /* posiciona a 90px para a esquerda */ 
+    top: 2000px; /* posiciona a 70px para baixo */
+    color: white
+    }
+
+/* HR Rodapé  */
+
+#linha20 {
+  position: relative;
+  top: 2000px;
+  border: none;
+  height: 300px;
+  background: rgb(43, 43, 43);
+  margin-bottom: 50px;
+}
+
+#texto21 {
+  position: absolute;
+  font-size: 15px;
+  left: 590px;
+  top: 2150px;
+  color:rgb(255, 255, 255)
+   }
+  
+   #imagem21 {
+    position: absolute; 
+    left: 660px; /* posiciona a 90px para a esquerda */ 
+    top: 2250px; /* posiciona a 70px para baixo */
+    }
+
+    #imagem22 {
+      position: absolute; 
+      left: 760px; /* posiciona a 90px para a esquerda */ 
+      top: 2250px; /* posiciona a 70px para baixo */
+      }
+
+      #texto22 {
+        position: absolute;
+        font-size: 15px;
+        left: 430px;
+        top: 2400px;
+        color:rgb(124, 124, 124)
+         }
+
+/* Menu do Rodapé */
+
+#texto23 {
+  position: absolute;
+  font-size: 15px;
+  left: 520px;
+  top: 2350px;
+  color:rgb(255, 255, 255)
+   }
+
+   #texto24 {
+    position: absolute;
+    font-size: 15px;
+    left: 620px;
+    top: 2350px;
+    color:rgb(255, 255, 255)
+     }
+
+     #texto25 {
+      position: absolute;
+      font-size: 15px;
+      left: 720px;
+      top: 2350px;
+      color:rgb(255, 255, 255)
+       }
+
+       #texto26 {
+        position: absolute;
+        font-size: 15px;
+        left: 850px;
+        top: 2350px;
+        color:rgb(255, 255, 255)
+         }
+
+/* Barra de Enviar E-MAIL */
+
+#search-box {
+  position: absolute;
+  width: 20%;
+  margin: 10;
+  left: 580px;
+  top: 2000px;
+}
+#search-form {
+  height: 50px;
+  border: 1px solid #999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+#search-text {
+  font-size: 14px;
+  color: #ddd;
+  border-width: 0;
+  background: transparent;
+  height: 50px;
+  width: 80px;
+}
+#search-box input[type="text"] {
+  width: 90%;
+  padding: 11px 0 12px 1em;
+  color: #333;
+  outline: none;
+}
+#search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 80px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  border-width: 0;
+  background-color: #4d90fe; /*--define a cor do botão Buscar--*/
+  -webkit-border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+#texto27 {
+  position: absolute;
+  font-size: 15px;
+  left: 400px;
+  top:1900px;
+  color:#6d7d81
+   }
+ /* Fim do codigo de pesquisar */
+
+ #hrcinzao {
+  position: absolute; 
+  left: 0px; /* posiciona a 90px para a esquerda */ 
+  top: 2130px; /* posiciona a 70px para baixo */
+  }
